@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- http://www.phpunit.de/manual/current/en/appendixes.configuration.html -->
+<phpunit
+		backupGlobals               = "false"
+		backupStaticAttributes      = "false"
+		colors                      = "true"
+		convertErrorsToExceptions   = "true"
+		convertNoticesToExceptions  = "false"
+		convertWarningsToExceptions = "true"
+		processIsolation            = "false"
+		stopOnFailure               = "false"
+		bootstrap                   = "vendor-bin/laravel4/vendor/autoload.php">
+
+	<testsuites>
+		<testsuite name="Laravel 4 bridge tests">
+			<directory>tests/Bridge/Laravel4</directory>
+		</testsuite>
+	</testsuites>
+
+</phpunit>

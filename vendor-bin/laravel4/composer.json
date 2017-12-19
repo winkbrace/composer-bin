@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "illuminate/console": "^4.0",
+        "theofidry/composer-inheritance-plugin": "^1.0"
+    }
+}
